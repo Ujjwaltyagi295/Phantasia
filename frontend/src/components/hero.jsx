@@ -162,13 +162,13 @@ export const HeroSec = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-6 max-w-4xl mx-auto">
           <a 
             href="#join" 
-            className="bg-blue-600 text-white text-lg font-semibold py-4 px-12 rounded-md hover:bg-blue-700 transition-colors"
+            className="bg-blue-600 text-white text-xl font-semibold py-4 px-12 rounded-md hover:bg-blue-700 transition-colors"
           >
             Start Learning
           </a>
           <a 
             href="#courses" 
-            className="bg-white text-gray-800 text-lg font-semibold py-4 px-14 rounded-md border border-gray-300 hover:bg-gray-50 transition-colors"
+            className="bg-white text-gray-800 text-xl font-semibold py-4 px-14 rounded-md border border-gray-300 hover:bg-gray-50 transition-colors"
           >
             Browse Courses
           </a>

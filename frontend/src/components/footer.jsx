@@ -17,13 +17,13 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900 text-white py-16">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-16 mb-12">
           {/* Organization Column */}
           <div className="space-y-6">
             <h3 className="font-medium text-4xl border-b border-slate-700 pb-2 inline-block">
               Organization
             </h3>
-            <ul className="space-y-5 text-2xl">
+            <ul className="space-y-5 text-[5rem]">
               <li><a href="#" className="hover:text-blue-400 transition-colors">About</a></li>
               <li><a href="#" className="hover:text-blue-400 transition-colors">FAQs</a></li>
               <li><a href="#" className="hover:text-blue-400 transition-colors">Join</a></li>
@@ -35,7 +35,7 @@ export default function Footer() {
             <h3 className="font-medium text-4xl border-b border-slate-700 pb-2 inline-block">
               Community
             </h3>
-            <ul className="space-y-5 text-2xl">
+            <ul className="space-y-5 text-[5rem]">
               <li><a href="#" className="hover:text-blue-400 transition-colors">Discord</a></li>
               <li><a href="#" className="hover:text-blue-400 transition-colors">Telegram</a></li>
               <li><a href="#" className="hover:text-blue-400 transition-colors">Blog</a></li>
@@ -47,7 +47,7 @@ export default function Footer() {
             <h3 className="font-medium text-4xl border-b border-slate-700 pb-2 inline-block">
               Events
             </h3>
-            <ul className="space-y-5 text-2xl">
+            <ul className="space-y-5 text-[5rem]">
               <li className="flex items-center">
                 <Book className="mr-2" size={24} />
                 <a href="#" className="hover:text-blue-400 transition-colors">Courses</a>
@@ -64,7 +64,7 @@ export default function Footer() {
             <h3 className="font-medium text-4xl border-b border-slate-700 pb-2 inline-block">
               Socials
             </h3>
-            <ul className="space-y-5 text-2xl">
+            <ul className="space-y-5 text-[5rem]">
               <li><a href="#" className="hover:text-blue-400 transition-colors">Twitter</a></li>
               <li><a href="#" className="hover:text-blue-400 transition-colors">Linkedin</a></li>
               <li><a href="#" className="hover:text-blue-400 transition-colors">Instagram</a></li>
@@ -77,7 +77,7 @@ export default function Footer() {
             <h3 className="font-medium text-4xl border-b border-slate-700 pb-2 inline-block">
               Contact
             </h3>
-            <p className="text-2xl">
+            <p className="text-[3rem]">
               <a href="mailto:contact@learnhub.org" className="hover:text-blue-400 transition-colors">
                 contact@learnhub.org
               </a>

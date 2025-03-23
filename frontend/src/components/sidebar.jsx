@@ -5,14 +5,14 @@ import { Button } from "./ui/button";
 import { ScrollArea } from "./ui/scroll-area";
 
 const routes = [
-  { label: "Dashboard", icon: LayoutDashboard, href: "/", color: "text-sky-500" },
-  { label: "Courses", icon: BookOpen, href: "/courses", color: "text-violet-500" },
-  { label: "My Learning", icon: GraduationCap, href: "/learning", color: "text-pink-500" },
-  { label: "Calendar", icon: Calendar, href: "/calendar", color: "text-orange-500" },
-  { label: "Statistics", icon: BarChart3, href: "/statistics", color: "text-emerald-500" },
-  { label: "Achievements", icon: Trophy, href: "/achievements", color: "text-yellow-500" },
-  { label: "Profile", icon: User, href: "/profile", color: "text-blue-500" },
-  { label: "Settings", icon: Settings, href: "/settings", color: "text-gray-500" }
+  { label: "Dashboard", icon: LayoutDashboard, href: "/dashboard", color: "text-sky-500" },
+  { label: "Courses", icon: BookOpen, href: "/dashboard/courses", color: "text-violet-500" },
+ 
+  { label: "Calendar", icon: Calendar, href: "/dashboard/calendar", color: "text-orange-500" },
+  { label: "Statistics", icon: BarChart3, href: "/dashboard/statistics", color: "text-emerald-500" },
+  { label: "Achievements", icon: Trophy, href: "/dashboard/achievements", color: "text-yellow-500" },
+ 
+  
 ];
 
 export function Sidebar({ className }) {

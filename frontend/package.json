@@ -2,13 +2,11 @@
   "name": "react-shadcn-project",
   "private": true,
   "version": "0.0.0",
- 
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,6 +17,7 @@
     "@radix-ui/react-select": "^2.1.6",
     "@radix-ui/react-slot": "^1.1.2",
     "@radix-ui/react-tabs": "^1.1.3",
+    "@tabler/icons-react": "^3.31.0",
     "class-variance-authority": "^0.7.1",
     "classnames": "^2.5.1",
     "clsx": "^2.1.1",
