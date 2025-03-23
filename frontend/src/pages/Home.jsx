@@ -6,6 +6,7 @@ import { HeroSec } from '@/components/hero';
 import Navbar from '@/components/navbar';
 import Testimonials from '@/components/features';
 import CourseCarousel from '@/components/courseHome';
+import Footer from '@/components/footer';
 
 export const Home = () => {
   return (
@@ -20,7 +21,7 @@ export const Home = () => {
    
     <Testimonials/>
   
-
+    <Footer/>
     </div>
   );
 };

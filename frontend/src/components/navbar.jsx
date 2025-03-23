@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const { scrollY } = useScroll();
@@ -24,14 +25,14 @@ const Navbar = () => {
   
   const menuItems = [
     {
-      title: "Home"
-    },
-    {
-      title: "Communities",
+      title: "Home",
+      link:"/"
     },
     {
       title: "Courses",
+      link:"/Courses"
     },
+    
   ];
   
   return (
@@ -53,13 +54,19 @@ const Navbar = () => {
           
           <ul className='flex-row flex space-x-5 text-[3rem] justify-center'>
             {menuItems.map((menu, index) => (
-              <li
-                key={index}
-                className='cursor-pointer hidden lg:block hover:bg-gray-200 p-2 px-2 rounded-full'
-              >
-                {menu.title}
-              </li>
+           
+              <a href={`${menu.link}`}
+                    
+                    key={index}
+                    className='cursor-pointer hidden lg:block hover:bg-gray-200 p-2 px-2 rounded-full'
+                  >
+                    {menu.title}
+                  </a>
+              
             ))}
+            <Link to="/dashboard" className='cursor-pointer hidden lg:block hover:bg-gray-200 p-2 px-2 rounded-full'>
+                Dasboard
+            </Link>
           </ul>
           
           <div className="relative">
